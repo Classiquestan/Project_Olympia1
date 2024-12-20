@@ -1,0 +1,72 @@
+Navbar CSS
+
+/* Navbar CSS */
+
+/* Global Styling */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.bg-black {
+  background-color: #000;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.text-blue-500 {
+  color: #3b82f6;
+}
+
+.shadow-md {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Styling */
+.hamburger {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.menu-section {
+  display: none;
+}
+
+.menu-open {
+  display: flex !important;
+}
+
+/* Breakpoints */
+@media (min-width: 1024px) {
+  .menu-section {
+    display: flex;
+  }
+
+  .hamburger {
+    display: none;
+  }
+}
+
+/* Dropdown */
+.bg-gray-800 {
+  background-color: #2d3748;
+}
+
+.bg-gray-900 {
+  background-color: #1a202c;
+}
+
+.hover\\:bg-blue-500:hover {
+  background-color: #3b82f6;
+}
+
+.transition {
+  transition: all 0.3s ease-in-out;
+}
+
+.shadow-lg {
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
